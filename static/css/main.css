@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+body,html{
+  height: 100%;
+}
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding:  25px 5%;
+    
+    box-shadow: #edf0f1;
+    border: #edf0f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    /* 0 6px 20px 0 rgba(0, 0, 0, 0.19) */
+
+}
+.logotext{
+    cursor:pointer ;
+    font-size: 30px;
+    font-weight: 900px;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing: 7px;
+}
+.nav_menu li ,.menutext{
+    
+    color: black;
+    display: inline;
+    padding: 5px 20px;
+    align-items: center;
+    cursor:pointer ;
+    font-size: 25px;
+    font-weight: 900px;
+    font-family: 'Barlow', sans-serif;
+    
+
+}
+
+
+.nav_menu{
+
+    list-style: none;
+    }
+
+.nav_menu li:hover{
+    border: none;
+    border-radius: 20px;
+    background-color: #f3ef51;
+}
+
+
+
+.mainbody{
+    min-height: 100%;
+}
+
+
+.intro {
+  padding-top: 10%;
+   margin:  auto;
+  width: 70%;
+  height: 600px;
+}
+ .intro h1{
+
+  font-size: 90px;
+  margin-bottom: 20px;
+  font-weight: 900px;
+  font-family: 'Barlow', sans-serif;
+ }
+
+ .intro h2{
+
+ padding: 10px;
+  font-weight: 900px;
+  font-family: 'Darker Grotesque', sans-serif;
+ }
+
+
+
+
+ .side_menu h1{
+    background-color:   #f3ef51;
+    height: 100vmax;
+    
+
+
+}
+.jobdetails span{padding-left: 10px;
+  font-weight: 100px;
+  font-family: 'Darker Grotesque', sans-serif;  
+ 
+
+}
+
+.column,.main{
+
+    float: left;
+  
+    height: 100vw; 
+  }
+  
+  .left, .right {
+    
+   
+    width: 15%;
+  
+  }
+  
+  .middle {
+    width: 70%;
+    margin-top: 0%;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+  
+ 
+
+  .mainleft{
+ 
+      width: 70%;
+
+  }
+   
+  .linkstitle {
+padding-left: 20px;
+    text-decoration: underline;
+  letter-spacing: 1ch;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 900px;
+    font-family: 'Barlow', sans-serif;
+    
+  }
+
+  .mainright{
+    padding: 20px;
+      width: 30%;
+  }
+  .card {
+    height:290px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-bottom: 20px;
+  }
+  
+.cardscontent{
+  padding: 5px;
+}
+  .companytitle h1{
+    padding-left: 15%;
+    
+  
+  }
+  .jobbody{
+ display: flex;
+ flex-flow: row;
+  }
+  .jobimage{
+   padding: 10px;
+    width: 35%;
+  }
+  .jobdetails{
+    width: 75%;
+  }
+  
+
+  .container {
+    padding: 2px 16px;
+  }
+
+
+  .footer{
+    background-color: blueviolet;
+    width: 100%;
+    height: 100px;    align-items: center;
+  }

@@ -1,0 +1,203 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <title>LIJO</title>
+    
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="logo"><h1 class="logotext">LIJO</h1></div>
+    
+<nav> <ul class="nav_menu">
+    <li><h1 class="menutext">Home</h1>
+    </li>
+    <li><h1 class="menutext">Contact</li>
+    <li><h1 class="menutext">Menu</h1></li>
+    <li><h1 class="menutext">Join</h1></li>
+</ul></nav>
+
+    </header>
+<!-- main body -->
+<div class="mainbody">
+<div class="intro">
+  <h1>wake up</h1>
+  <h2>Whether you're looking for that perfect job, trying to make the most of your current job, or building a business all on your own, it's time to refocus your energy on your career. It's easy to get excited and feel amped up and ready to take on the world, but that feeling can be difficult to sustain over time. So what do you do? You look to the men and women who inspire us to keep pushing forward and listen to their words.
+  </h2>
+</div>
+
+<div class="row">
+    <div class="column left"><p>left</p></div>
+
+    <div class="column middle">
+    
+    <div class="main mainleft">
+ <div class="linkstitle">
+   <h1 class="_linkstitle">links</h1>
+
+
+ </div >
+   
+ <div class="cardscontent">
+  
+
+  {% for o in objects %}  
+  <div class="card">
+            
+    <div class="container">
+    <div class="companytitle">
+        <h1> Saiyans B&M</h1>
+
+    </div>
+    <div class="jobbody">
+      <div class="jobimage">
+        <img  src="{{o.logo.url}}" alt="no- image" width="200px" height="200px">
+      </div>
+      <div class="jobdetails">
+         <h2>company: <span>{{o.company_name}}</span></h2>
+         <h2>position: <span>{{o.position}}</span></h2>
+        <h2> description: <span>{{o.description}}</span></h2>
+        <a href="{{o.link}}">apply now</a>
+        <!-- {{o.posted_on}} -->
+        
+      </div>
+    </div>
+    </div>
+  </div>
+  {% endfor %}
+
+
+   
+  <!-- <div class="card">
+            
+    <div class="container">
+    <div class="companytitle">
+        <h1> Saiyans B&M</h1>
+
+    </div>
+    <div class="jobbody">
+      <div class="jobimage">
+        <img  src="face.png" alt="no- image" width="200px" height="200px">
+      </div>
+      <div class="jobdetails">
+         <h2>company: <span>Saiyans B&M</span></h2>
+         <h2>position: <span>supporter</span></h2>
+        <h2> description: <span>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah </span></h2>
+        
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+
+
+
+     
+  <div class="card">
+            
+    <div class="container">
+    <div class="companytitle">
+        <h1> Saiyans B&M</h1>
+
+    </div>
+    <div class="jobbody">
+      <div class="jobimage">
+        <img  src="face.png" alt="no- image" width="200px" height="200px">
+      </div>
+      <div class="jobdetails">
+         <h2>company: <span>Saiyans B&M</span></h2>
+         <h2>position: <span>supporter</span></h2>
+        <h2> description: <span>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah </span></h2>
+        
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+     
+  <div class="card">
+            
+    <div class="container">
+    <div class="companytitle">
+        <h1> Saiyans B&M</h1>
+
+    </div>
+    <div class="jobbody">
+      <div class="jobimage">
+        <img  src="face.png" alt="no- image" width="200px" height="200px">
+      </div>
+      <div class="jobdetails">
+         <h2>company: <span>Saiyans B&M</span></h2>
+         <h2>position: <span>supporter</span></h2>
+        <h2> description: <span>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah </span></h2>
+        
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+     
+  <div class="card">
+            
+    <div class="container">
+    <div class="companytitle">
+        <h1> Saiyans B&M</h1>
+
+    </div>
+    <div class="jobbody">
+      <div class="jobimage">
+        <img  src="face.png" alt="no- image" width="200px" height="200px">
+      </div>
+      <div class="jobdetails">
+         <h2>company: <span>Saiyans B&M</span></h2>
+         <h2>position: <span>supporter</span></h2>
+        <h2> description: <span>blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blahblah blah blah </span></h2>
+        
+      </div>
+    </div>
+    </div>
+  </div> -->
+
+
+     
+
+
+
+
+
+
+
+ </div>
+
+
+
+
+    </div>
+
+
+
+
+    <div class="main mainright"><p>main right</p></div>
+    
+    
+    </div>
+    <div class="column right"><p>right</p></div>
+  </div>
+
+</div>
+    <!-- footer -->
+ <div class="footer">
+   <h1>footer</h1>
+
+ </div>
+   
+</body>
+</html>
