@@ -26,7 +26,7 @@ SECRET_KEY = 'n*mrt$pfp@rkw&-30rv$4(d5_mpwt84&bh9dk&#3tu*@6j-23%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1','link-jobs.herokuapp.com']
 
 
 # Application definition
