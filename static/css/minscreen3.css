@@ -1,0 +1,65 @@
+
+
+@media only screen and (max-width:664px) and (min-width:500px){
+  
+    .intro {
+      padding-top: 5%;
+       margin:  auto;
+      width: 70%;
+      height: 600px;
+    }
+    .left,.right{
+      display: none;
+    }
+    .middle{
+      flex-direction: column;
+    
+      margin: auto;
+    
+    
+    }
+    
+    
+    .card{
+      width: 100%;
+      height: 300px;
+    }
+    .mainleft{
+   
+      width: 100%;
+    
+    }
+    .intro h1{
+  
+      font-size: 70px;
+      margin-bottom: 15px;
+      
+     }
+     .intro h2{
+  
+      padding: 5px;
+  
+      }
+      .image{
+        width: 130px;
+        height: 130px;
+      }
+  
+      .mainright{
+        padding: 5px;
+          width: 30%;
+      }
+      .jobdetails{
+        padding-left: 40px;
+      }
+      .jobdetails h2{
+        padding-left: 10px;
+        font-size: 1.1rem;
+      }
+  
+      .mainright{
+        display: none;
+      }
+    }
+  
+  

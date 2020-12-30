@@ -1,0 +1,22 @@
+
+@media only screen and (max-width:988px) and (min-width:768px){
+
+    .card{
+      height: 280px;
+    }
+    .cardscontent{
+      padding: 1px;
+    }
+    .image{
+      width: 140px;
+      height: 140px;
+    }
+    .jobdetails{
+      width: 70%;
+      padding-left: 35px;
+    }
+    .jobdetails h2{
+      font-size: 1.1rem;
+    }
+  }
+  

@@ -1,0 +1,72 @@
+@media only screen and (max-width:500px) and (min-width:425px)
+{
+  
+
+  intro {
+    padding-top: 5%;
+     margin:  auto;
+    width: 70%;
+    height: 600px;
+  }
+  .left,.right{
+    display: none;
+  }
+  .middle{
+    flex-direction: column;
+  
+    margin: auto;
+  
+  
+  }
+  .mainleft{
+ 
+    width: 100%;
+  
+  }
+
+  .intro h1{
+
+    font-size: 50px;
+    margin-bottom: 10px;
+    
+   }
+   .intro h2{
+
+    padding: 5px;
+
+    }
+    .image{
+      padding: 0px;
+      width: 130px;
+      height: 130px;
+    }
+    .jobimage{
+      padding-left: 0px;
+      margin: auto;
+      padding: 5px;
+    }
+    .jobbody{
+      flex-flow: column;
+       }
+       .companytitle h1{
+        margin: auto;
+        font-size: 1.5rem;
+        
+        font-family: 'Barlow', sans-serif;
+      
+      }
+      .card{
+        height: 350px;
+      }
+      
+      .jobdetails h2{
+        padding-left: 10px;
+        font-size: 1.0rem;
+      }
+      .container {
+        padding: 0px;
+      }
+      .mainright{
+        display: none;
+      }
+}

@@ -1,0 +1,60 @@
+@media only screen and (max-width:2177px) and (min-width:1735px){
+
+    body {
+      background-color: lightblue;
+    }
+
+    .logotext{
+     
+      font-size: 50px;
+      font-weight: 900px;
+    
+
+  }
+.intro
+{
+  margin-bottom: 10%;
+}
+  .nav_menu li ,.menutext{
+    font-size: 45px;
+    }
+ 
+    .intro h1{
+      padding-top: 0%;
+      font-size:9.0rem;
+     
+     }
+     .intro h2{
+       font-size: 2.5rem;
+
+
+        }
+
+
+        .card {
+          height:330px;
+         
+          margin-bottom: 25px;
+        }
+        .jobimage{
+          padding-left: 50px;
+           width: 40%;
+         }
+         .companytitle h1{
+          padding-left: 10%;
+          font-size: 2.2rem;
+          
+        }
+       
+        .image{
+          width: 250px;
+          height: 200px;
+        }
+        .jobdetails{
+         width: 60%;
+       }
+       .jobdetails h2{
+         font-size: 2.0rem;
+       }
+  }
+
