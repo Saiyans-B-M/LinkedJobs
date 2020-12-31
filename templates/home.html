@@ -59,6 +59,22 @@
    
  <div class="cardscontent">
 
+  <div class="adsblock">
+    <script type="text/javascript">
+    
+      atOptions = {
+        'key' : '3434346231346231396633633938373235383330366230663038333661326134',
+        'format' : 'iframe',
+        'height' : 50,
+        'width' : 320,
+        'params' : {}
+      };
+      var script = document.createElement('script');  
+      script.src = "http" + (location.protocol === 'https:' ? 's' : '') +"://www.gatetodisplaycontent.com/3434346231346231396633633938373235383330366230663038333661326134/invoke.js";  
+      document.head.appendChild(script);
+    </script>
+  </div>
+
 
       
    {% for o in objects %}
@@ -78,7 +94,7 @@
          <h2>company: <span>{{o.company_name}}</span></h2>
          <h2>position: <span>{{o.position}}</span></h2>
         <h2> description: <span>{{o.description}}</span></h2>
-        <a href="{{o.link}}">apply here</a>
+        <a href="{{o.link}}" class="alybtn">Apply Now!!</a>
         
       </div>
     </div>

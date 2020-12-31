@@ -52,6 +52,11 @@ display: block;
 
 }
 
+.adsblock{margin-left: 15%;
+  width: 400px;
+  height: 100px;
+
+}
 
 
 .nav_menu{
@@ -196,12 +201,57 @@ padding-bottom: 20px;
     width: 75%;
   }
   
+  .applybtn{
+    margin-left: 40px;
+    margin-top: 20px;
 
+    font-family: 'Barlow', sans-serif;
+font-size: medium;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+
+    color: black;
+      
+
+    align-items: center;
+    
+  }
+  .applubtndiv{
+  
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+ 
   .container {
     padding: 2px 16px;
   }
 
+  .alybtn{
+        
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 20%;
+    border: none;
+    border-radius: 90px;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #4CAF50;
 
+  }
+
+
+  .alybtn:hover{
+    background-color: #f3ef51;
+    color: black;
+
+  }
  
  
   /* meadia query */
@@ -350,6 +400,10 @@ padding-bottom: 20px;
     font-weight: bold;
     float: right;
   }
+  .footer-distributed form button:hover{
+    background-color: #5c666b ;
+
+  }
   
   /* If you don't want the footer to be responsive, remove these media queries */
   
@@ -403,6 +457,7 @@ padding-bottom: 20px;
     .footer-distributed form button{
       float: none;
     }
+
   }
 
 
@@ -410,3 +465,71 @@ padding-bottom: 20px;
 
 
 
+@media only screen and (max-width:549px) and (min-width:500px){
+  .intro {
+    padding-top: 5%;
+     margin:  auto;
+    width: 70%;
+    height: 600px;
+  }
+  .left,.right{
+    display: none;
+  }
+  .middle{
+    flex-direction: column;
+  
+    margin: auto;
+  
+  
+  }
+
+  .card{
+    width: 100%;
+    height: 350px;
+  }
+  .mainleft{
+ 
+    width: 100%;
+    padding-left:10px;
+    padding-right: 10px;
+  
+  }
+  .intro h1{
+
+    font-size: 70px;
+    margin-bottom: 15px;
+    
+   }
+   .intro h2{
+
+    padding: 5px;
+
+    }
+    .image{
+      width: 130px;
+      height: 130px;
+    }
+
+    .mainright{
+      padding: 5px;
+        width: 30%;
+    }
+    .jobdetails{
+      padding-left: 40px;
+    }
+    .jobdetails h2{
+      padding-left: 10px;
+      font-size: 1.1rem;
+    }
+
+    .mainright{
+      display: none;
+    }
+    .button{
+      font-size: 12px;
+    }
+    .alybtn{
+      font-size: 10px;
+    }
+ 
+}

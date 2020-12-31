@@ -18,6 +18,14 @@
   
   
   }
+  .jobdetails{
+    width: 100%;
+  }
+  .jobimage{
+      margin-left: 20%;
+      margin-right: 20%;
+    width: 100%;
+  }
   .mainleft{
  
     width: 100%;
@@ -40,11 +48,7 @@
       width: 130px;
       height: 130px;
     }
-    .jobimage{
-      padding-left: 0px;
-      margin: auto;
-      padding: 5px;
-    }
+   
     .jobbody{
       flex-flow: column;
        }
@@ -56,11 +60,11 @@
       
       }
       .card{
-        height: 350px;
+        height: 400px;
       }
       
       .jobdetails h2{
-        padding-left: 10px;
+        padding-left: 30px;
         font-size: 1.0rem;
       }
       .container {
@@ -68,5 +72,8 @@
       }
       .mainright{
         display: none;
+      }
+      .alybtn{
+        font-size: 12px;
       }
 }
